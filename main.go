@@ -24,6 +24,7 @@ type apiConfig struct {
 //go:embed static/*
 var staticFiles embed.FS
 
+//lint:ignore U1000 will be used in upcoming feature
 func unused() {
 	// this function does nothing
 	// and is called nowhere
